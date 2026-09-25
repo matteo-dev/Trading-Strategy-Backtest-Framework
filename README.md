@@ -29,9 +29,7 @@ Outil d'analyse quantitative et de backtest de stratégies de trading développ�
    ```bash
    git clone [https://github.com/votre-nom-d-utilisateur/trading-strategy-backtest.git](https://github.com/votre-nom-d-utilisateur/trading-strategy-backtest.git)
    cd trading-strategy-backtest
-2. **Installer les dépendances :**
+2. **Installer les dépendances et exécuter:**
   ```bash
   pip install -r requirements.txt
-3. **Exécuter le script principal :**
-  ```bash
   python Projet.py
