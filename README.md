@@ -21,15 +21,38 @@ Outil d'analyse quantitative et de backtest de stratégies de trading développ�
 - **Optimisation :** Sélection des hyperparamètres optimaux basée sur le ratio de Sharpe.
 - **Reporting :** Export automatique des résultats de backtest et de la synthèse globale dans un classeur Excel enrichi (`Rapport_Financier_Analyse.xlsx`).
 
+## English Below 
+
+Quantitative analysis and trading strategy backtesting tool developed in Python.
+
+## 📊 Project Features
+
+### 1. Asset Universe Analysis
+- Automated download of 5 years of historical data for 15 assets (international equities, ETFs, indices, ESG assets, risk-free rate) via `yfinance`.
+- Robust foreign currency conversion (USD, CNY, GBP, JPY) to EUR.
+- Data cleaning and log-return calculations.
+- Calculation of advanced risk metrics: 
+  - Annualized volatility ($\sigma_{ann} = \sigma_{daily} \times \sqrt{252}$)
+  - Parametric Value at Risk (VaR) and Conditional VaR (CVaR) at 95% and 99%
+  - Maximum drawdown and recovery time
+- Graphical visualizations: normalized base-100 prices, correlation heatmaps, return/risk scatter plots, and return distributions.
+
+### 2. Trading Strategies & Backtest Engine
+- **Strategy 1:** Moving Average Crossover (short/long).
+- **Strategy 2:** Ichimoku Indicator (Tenkan-Sen / Kijun-Sen).
+- **Backtest Engine:** Dynamic tracking of positions, cash, total portfolio value, and daily returns calculation.
+- **Optimization:** Optimal hyperparameter selection based on the Sharpe ratio.
+- **Reporting:** Automatic export of backtest results and overall summary into an enhanced Excel workbook (`Financial_Analysis_Report.xlsx`).
+
 ---
 
 ## 🛠️ Installation et Utilisation
 
-1. **Cloner le dépôt :**
+1. **Cloner le dépôt / Clone the reposit :**
    ```bash
    git clone [https://github.com/votre-nom-d-utilisateur/trading-strategy-backtest.git](https://github.com/votre-nom-d-utilisateur/trading-strategy-backtest.git)
    cd trading-strategy-backtest
-2. **Installer les dépendances et exécuter:**
+2. **Installer les dépendances et exécuter / Install requirements and run project :**
   ```bash
   pip install -r requirements.txt
   python Projet.py
