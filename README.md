@@ -2,7 +2,7 @@
 
 Outil d'analyse quantitative et de backtest de stratégies de trading développé en Python.
 
-## 📊 Fonctionnalités du Projet
+## Fonctionnalités du Projet
 
 ### 1. Analyse de l'Univers d'Actifs
 - Téléchargement automatisé de 5 ans d'historique pour 15 actifs (actions internationales, ETF, indices, actifs ESG, taux sans risque) via `yfinance`.
@@ -25,7 +25,7 @@ Outil d'analyse quantitative et de backtest de stratégies de trading développ�
 
 Quantitative analysis and trading strategy backtesting tool developed in Python.
 
-## 📊 Project Features
+## Project Features
 
 ### 1. Asset Universe Analysis
 - Automated download of 5 years of historical data for 15 assets (international equities, ETFs, indices, ESG assets, risk-free rate) via `yfinance`.
@@ -46,7 +46,7 @@ Quantitative analysis and trading strategy backtesting tool developed in Python.
 
 ---
 
-## 🛠️ Installation et Utilisation
+## Installation et Utilisation
 
 1. **Cloner le dépôt / Clone the reposit :**
    ```bash
